@@ -5,7 +5,7 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - ./app:/app
-
+     # - ./app:/app
+       - //c/Users/dockerapp/app/
   redis:
     image: redis:3.2.0
